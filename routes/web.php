@@ -1,11 +1,15 @@
 <?php
 require __DIR__.'/auth.php';
 
+use App\Http\Controllers\SetLanguageController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('main');
-});
+})->name("main");
+Route::view("estrenos", "estrenos")->name("estrenos");
+Route::view("cartelera", "cartelera")->name("cartelera");
+Route::view("about", "about")->name("about");
 
 Route::fallback(function () {
     $ruta = request()->url();
@@ -17,10 +21,4 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 // Ruta del cambio de idioma
-Route::get('/lang/{locale}', function (string $locale) {
-    if (! in_array($locale, ['es', 'en', 'fr', 'ru'])) {
-        abort(400);
-    }
-    session(['locale' => $locale]);
-    return redirect()->back();
-})->name('lang.switch');
+Route::get("/lang/{lang}",SetLanguageController::class)->name('set_lang');;

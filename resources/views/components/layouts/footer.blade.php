@@ -1,9 +1,9 @@
 <footer class="footer footer-horizontal footer-center text-base-content rounded p-10 bg-[#E59F71]">
     <nav class="grid grid-flow-col gap-4">
-        <a class="link link-hover">Sobre nosotros</a>
-        <a class="link link-hover">Contacto</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
+        <a class="link link-hover">{{__("Sobre nosotros")}}</a>
+        <a class="link link-hover">{{__("Contacto")}}</a>
+        <a class="link link-hover">{{__("Trabajos")}}</a>
+        <a class="link link-hover">{{__("Dossier de prensa")}}</a>
     </nav>
     <nav>
         <div class="grid grid-flow-col gap-4">
@@ -43,6 +43,6 @@
         </div>
     </nav>
     <aside>
-        <p>Copyright © 2026 - All right reserved by ACME Industries Ltd</p>
+        <p>{{__("Copyright © 2026 - All right reserved by ACME Industries Ltd")}}</p>
     </aside>
 </footer>

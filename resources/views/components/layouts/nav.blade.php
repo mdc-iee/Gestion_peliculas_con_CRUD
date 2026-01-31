@@ -1,34 +1,22 @@
-<div class="navbar shadow-sm bg-[#E59F71]">
-    <div class="navbar-start">
-        <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-            </div>
-            <ul
-                tabindex="-1"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                <li><a>Item 1</a></li>
-                <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                        <li><a>Submenu 1</a></li>
-                        <li><a>Submenu 2</a></li>
-                    </ul>
-                </li>
-                <li><a>Item 3</a></li>
-            </ul>
-        </div>
-        <img class="h-40" src="{{asset("img/logo.png")}}" alt="Logo de la página">
-    </div>
-    <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
-            <li><a>Inicio</a></li>
-            <li><a>Próximos estrenos</a>
-            <li><a>Cartelera actual</a>
-            <li><a>Sobre nosotros</a></li>
-        </ul>
-    </div>
-    <div class="navbar-end">
-        <a class="btn btn-primary bg-red-400">{{__("Finalizar sesión")}}</a>
-    </div>
-</div>
+<nav class="h-nav bg-nav flex items-center p-5 gap-3">
+    <a href="{{route('main')}}"
+       class="px-4 py-2 rounded-full text-sm font-medium bg-amber-900/40 text-amber-200
+              hover:bg-amber-800/60 hover:text-amber-100 hover:scale-105 transition-all duration-200">
+       {{__("Inicio")}}
+    </a>
+    <a href="{{route('estrenos')}}"
+       class="px-4 py-2 rounded-full text-sm font-medium bg-amber-900/40 text-amber-200
+              hover:bg-amber-800/60 hover:text-amber-100 hover:scale-105 transition-all duration-200">
+       {{__("Próximos estrenos")}}
+    </a>
+    <a href="{{route('cartelera')}}"
+       class="px-4 py-2 rounded-full text-sm font-medium bg-amber-900/40 text-amber-200
+              hover:bg-amber-800/60 hover:text-amber-100 hover:scale-105 transition-all duration-200">
+       {{__("Cartelera actual")}}
+    </a>
+    <a href="{{route('about')}}"
+       class="px-4 py-2 rounded-full text-sm font-medium bg-amber-900/40 text-amber-200
+              hover:bg-amber-800/60 hover:text-amber-100 hover:scale-105 transition-all duration-200">
+       {{__("Sobre nosotros")}}
+    </a>
+</nav>

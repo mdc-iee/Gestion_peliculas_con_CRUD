@@ -6,13 +6,11 @@
                 class="max-w-sm rounded-lg shadow-2xl"
             />
             <div>
-                <h1 class="text-5xl font-bold">¡Tenemos grandes noticias!</h1>
+                <h1 class="text-5xl font-bold">{{__("¡Tenemos grandes noticias!")}}</h1>
                 <p class="py-6">
-                    Muy pronto llegan nuevas películas a nuestra cartelera, con estrenos llenos de acción, emoción, risas y
-                    aventuras para todos los gustos. Prepárate para disfrutar historias increíbles en la pantalla grande y
-                    vivir la mejor experiencia de cine.
+                    {{__("Muy pronto llegan nuevas películas a nuestra cartelera, con estrenos llenos de acción, emoción, risas y aventuras para todos los gustos.")}}
                 </p>
-                <button class="btn btn-primary">Ver películas</button>
+                <button class="btn btn-primary">{{__("Ver películas")}}</button>
             </div>
         </div>
     </div>

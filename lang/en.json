@@ -82,5 +82,21 @@
     "Whoops!": "Whoops!",
     "You are receiving this email because we received a password reset request for your account.": "You are receiving this email because we received a password reset request for your account.",
     "You're logged in!": "You're logged in!",
-    "Your email address is unverified.": "Your email address is unverified."
+    "Your email address is unverified.": "Your email address is unverified.",
+    "Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn\\'t receive the email, we will gladly send you another.": "Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn't receive the email, we will gladly send you another.",
+    "Finalizar sesión": "Logout",
+    "Texto": "",
+    "auth.password": "",
+    "Sobre nosotros": "About us",
+    "Contacto": "Contact",
+    "Trabajos": "Jobs",
+    "Dossier de prensa": "Press kit",
+    "Copyright © 2026 - All right reserved by ACME Industries Ltd": "Copyright © 2026 - All right reserved by ACME Industries Ltd",
+    "¡Tenemos grandes noticias!": "Good news!",
+    "Ver películas": "See films",
+    "Selecciona idioma": "Select language",
+    "Inicio": "Home",
+    "Próximos estrenos": "Upcoming releases",
+    "Cartelera actual": "Current billboard",
+    "Muy pronto llegan nuevas películas a nuestra cartelera, con estrenos llenos de acción, emoción, risas y aventuras para todos los gustos." : "Very soon new movies are coming to our theaters, with premieres full of action, excitement, laughter and adventures for all tastes."
 }

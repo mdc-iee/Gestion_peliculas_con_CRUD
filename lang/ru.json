@@ -82,5 +82,21 @@
     "Whoops!": "Упс!",
     "You are receiving this email because we received a password reset request for your account.": "Вы получили это письмо, потому что мы получили запрос на сброс пароля для Вашей учётной записи.",
     "You're logged in!": "Вы уже вошли.",
-    "Your email address is unverified.": "Ваш адрес электронной почты не подтверждён."
+    "Your email address is unverified.": "Ваш адрес электронной почты не подтверждён.",
+    "Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn\\'t receive the email, we will gladly send you another.": "Спасибо за регистрацию! Прежде чем начать, пожалуйста, подтвердите свой адрес электронной почты, перейдя по ссылке, которую мы только что вам отправили. Если вы не получили письмо, мы с удовольствием вышлем вам еще одно.",
+    "Finalizar sesión": "Завершить сеанс",
+    "Texto": "",
+    "auth.password": "",
+    "Sobre nosotros": "О нас",
+    "Contacto": "Контакты",
+    "Trabajos": "Вакансии",
+    "Dossier de prensa": "Пресс-кит",
+    "Copyright © 2026 - All right reserved by ACME Industries Ltd": "Copyright © 2026 — Все права защищены, ACME Industries Ltd",
+    "¡Tenemos grandes noticias!": "У нас отличные новости!",
+    "Ver películas": "Смотреть фильмы",
+    "Selecciona idioma": "Выберите язык",
+    "Inicio": "Начинать",
+    "Próximos estrenos": "Предстоящие релизы",
+    "Cartelera actual": "Текущий рекламный щит",
+    "Muy pronto llegan nuevas películas a nuestra cartelera, con estrenos llenos de acción, emoción, risas y aventuras para todos los gustos." : "Совсем скоро в наших кинотеатрах появятся новые фильмы, премьеры которых будут полны экшена, захватывающих событий, смеха и приключений на любой вкус."
 }
