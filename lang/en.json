@@ -108,6 +108,18 @@
     "¿Ya tienes entrada?": "Already have a ticket?",
     "Registrarse": "Sign up",
     "Hola": "Hello",
-    "Iniciar sesión": "Log in"
-
+    "Iniciar sesión": "Log in",
+    "Por favor, regístrese": "Please, sign up",
+    "Nueva película": "New Movie",
+    "Título": "Title",
+    "Género": "Genre",
+    "Duración": "Duration",
+    "Director": "Director",
+    "Descripción": "Description",
+    "Cancelar": "Cancel",
+    "Crear": "Create",
+    "Editar película": "Edit Movie",
+    "Editar": "Edit",
+    "Agregar película": "Add Movie",
+    "Borrar": "Delete"
 }

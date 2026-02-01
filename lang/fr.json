@@ -108,6 +108,19 @@
     "¿Ya tienes entrada?": "Vous avez déjà un billet?",
     "Registrarse": "S’inscrire",
     "Hola": "Salut",
-    "Iniciar sesión": "Se connecter"
+    "Iniciar sesión": "Se connecter",
+    "Por favor, regístrese": "Veuillez vous inscrire",
+    "Nueva película": "Nouveau film",
+    "Título": "Titre",
+    "Género": "Genre",
+    "Duración": "Durée",
+    "Director": "Réalisateur",
+    "Descripción": "Description",
+    "Cancelar": "Annuler",
+    "Crear": "Créer",
+    "Editar película": "Modifier le film",
+    "Editar": "Modifier",
+    "Agregar película": "Ajouter un film",
+    "Borrar": "Supprimer"
 
 }

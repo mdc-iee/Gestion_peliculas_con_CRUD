@@ -3,6 +3,7 @@ require __DIR__.'/auth.php';
 
 use App\Http\Controllers\SetLanguageController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FilmController;
 
 // Vistas
 Route::get('/', function () {
@@ -22,4 +23,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 // Ruta del cambio de idioma
-Route::get("/lang/{lang}",SetLanguageController::class)->name('set_lang');;
+Route::get("/lang/{lang}",SetLanguageController::class)->name('set_lang');
+
+// Ruta que recoge todas las posibles utilidades con el modelo Film
+Route::resource('films', FilmController::class)->middleware(['auth', 'verified']);

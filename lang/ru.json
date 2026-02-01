@@ -108,5 +108,19 @@
     "¿Ya tienes entrada?": "Уже есть билет?",
     "Registrarse": "Зарегистрироваться",
     "Hola": "Здравствуйте",
-    "Iniciar sesión": "Войти"
+    "Iniciar sesión": "Войти",
+    "Por favor, regístrese": "Пожалуйста, зарегистрируйтесь",
+    "Nueva película": "Новый фильм",
+    "Título": "Название",
+    "Género": "Жанр",
+    "Duración": "Длительность",
+    "Director": "Режиссёр",
+    "Descripción": "Описание",
+    "Cancelar": "Отмена",
+    "Crear": "Создать",
+    "Editar película": "Редактировать фильм",
+    "Editar": "Редактировать",
+    "Agregar película": "Добавить фильм",
+    "Borrar": "Удалить"
+
 }
