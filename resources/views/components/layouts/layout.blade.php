@@ -11,7 +11,9 @@
     </head>
     <body>
         <x-layouts.header/>
-        <x-layouts.nav/>
+        @auth
+            <x-layouts.nav/>
+        @endauth
         <main class="h-main bg-main">
             {{$slot}}
         </main>

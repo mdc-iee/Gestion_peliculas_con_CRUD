@@ -4,6 +4,7 @@ require __DIR__.'/auth.php';
 use App\Http\Controllers\SetLanguageController;
 use Illuminate\Support\Facades\Route;
 
+// Vistas
 Route::get('/', function () {
     return view('main');
 })->name("main");
