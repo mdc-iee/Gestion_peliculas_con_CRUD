@@ -13,7 +13,7 @@ class FilmSeeder extends Seeder
      */
     public function run(): void
     {
-        // Esta función llama 5 veces a la fábrica y crea los proyectos en la tabla de la base de datos (si hay 50, solo creará 5)
+        // Esta función llama 20 veces a la fábrica y crea los proyectos en la tabla de la base de datos (si hay 50, solo creará 20)
         Film::factory()->count(20)->create();
     }
 }
